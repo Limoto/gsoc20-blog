@@ -6,7 +6,7 @@ categories:
 ---
 During the community bonding period, I joined the AGL mailing list and introduced myself and my project. I also started to attend the regular Tuesday's AGL Weekly Developer Calls and biweekly AGL Virtualization Expert Group calls.
 
-During the calls with my mentor, we found out a new goal for the project. The goal is to make real-time Jailhouse cell, that will be given access to the CAN hardware peripheral. It will be able to reply to CAN messages that need a quick reply and pass the other to the Linux cell with AGL.
+During the calls with my mentor, we found out a new goal for the project. The goal is to make a real-time Jailhouse cell that will be given access to the CAN hardware peripheral. It will be able to reply to CAN messages that need a quick reply and pass the other to the Linux cell with AGL.
 
 To implement that, I have got two Raspberry Pi 4s (4 GB and 2 GB version) and two pieces of the [Waveshare CAN HAT](https://www.waveshare.com/rs485-can-hat.htm). One of them will be used to run the AGL system with Jailhouse and one will be used as the counterpart on the CAN bus.
 
